@@ -3,7 +3,7 @@ current_passport = {}
 required_fields = ["byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"]
 
 # Opens the file.
-with open("../input.txt") as f:
+with open("input.txt") as f:
     for line in f:
         line = line.strip()
 

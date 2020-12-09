@@ -1,7 +1,7 @@
 lines = []
 count = 0
 # Opens the file.
-with open("../input.txt") as f:
+with open("input.txt") as f:
     for line in f:
         line = line.strip()
         if len(line) < 1: continue

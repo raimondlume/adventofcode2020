@@ -1,7 +1,7 @@
 lst = []
 
 # Opens the file.
-with open("../input.txt") as f:
+with open("input.txt") as f:
 
     # Loops over the file one line at a time.
     for line in f:

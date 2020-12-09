@@ -2,7 +2,7 @@ count = 0
 d = set()
 
 # Opens the file.
-with open("../input.txt") as f:
+with open("input.txt") as f:
     for line in f:
         line = line.strip()
 

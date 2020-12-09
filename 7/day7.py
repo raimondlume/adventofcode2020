@@ -1,7 +1,7 @@
 from parse import *
 
 x = {search('{} bag', x)[0]: [*findall('{:d} {} bag', x)]
-     for x in open('../input.txt')}
+     for x in open('input.txt')}
 
 t = 'shiny gold'
 

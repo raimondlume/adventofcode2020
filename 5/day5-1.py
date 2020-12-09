@@ -4,7 +4,7 @@ count = 0
 lut = {"F": "0", "B": "1", "L": "0", "R": "1"}
 
 # Opens the file.
-with open("../input.txt") as f:
+with open("input.txt") as f:
     for line in f:
         row_bin = ""
         for char in line.strip()[:-3]:
