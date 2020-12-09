@@ -6,7 +6,7 @@ flip = 3
 
 while True:
     # Opens the file.
-    with open("input.txt") as f:
+    with open("../input.txt") as f:
         for line in f:
             line = line[:-1]  # remove /n
 
