@@ -11,4 +11,3 @@ with open("input.txt") as f:
 f.close()
 
 print(lst)
-                
